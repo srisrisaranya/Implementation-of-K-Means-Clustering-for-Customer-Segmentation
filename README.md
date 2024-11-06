@@ -18,17 +18,18 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 
 ## Program:
 ```
-/*
+
 Program to implement the K Means Clustering for Customer Segmentation.
-Developed by: SARANYA S
-RegisterNumber:  212223110044
-*/
+# Developed by: SARANYA S
+# RegisterNumber:  212223110044
+
 ```
 import pandas as pd 
 import matplotlib.pyplot as plt 
 data=pd.read_csv("Mall_Customers.csv")
 data.head()
 ```
+# OUTPUT :
 ![image](https://github.com/user-attachments/assets/b7aeba18-c48e-43dc-a60f-05d1976987a4)
 
 ```
@@ -82,9 +83,9 @@ plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/bee24e94-a785-4984-9195-8d413d15a356)
 
-# OUTPUT :
+## OUTPUT :
 ![K Means Clustering for Customer Segmentation](sam.png)
 
 
-# RESULT :
+## RESULT :
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
