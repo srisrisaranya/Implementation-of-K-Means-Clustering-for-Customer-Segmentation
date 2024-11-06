@@ -34,11 +34,13 @@ data.head()
 ```
 data.info()
 ```
+# OUTPUT :
 ![image](https://github.com/user-attachments/assets/b162ebdc-e181-4ecb-9c8a-b946f8e474b8)
 
 ```
 data.isnull().sum()
 ```
+# OUTPUT :
 ![image](https://github.com/user-attachments/assets/c8cb291c-ff40-4b9a-a00d-b41c5ebec0ad)
 
 ```
@@ -53,6 +55,7 @@ plt.xlabel("No.of Clusters")
 plt.ylabel("wcss")
 plt.title("Elbow Method")
 ```
+# OUTPUT :
 ![image](https://github.com/user-attachments/assets/f7259301-6f3f-49b6-a10a-6ccdd1c597e1)
 
 ```
@@ -62,6 +65,7 @@ KMeans(n_clusters=5)
 y_pred=km.predict(data.iloc[:,3:])
 y_pred
 ```
+# OUTPUT :
 ![image](https://github.com/user-attachments/assets/ef30d5e8-4e32-4021-bf7b-a95e6c4763ae)
 
 ```
@@ -80,11 +84,8 @@ plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"], color = "bl
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"], color = "red")
 plt.show()
 ```
+# OUTPUT :
 ![image](https://github.com/user-attachments/assets/bee24e94-a785-4984-9195-8d413d15a356)
-
-## OUTPUT :
-![K Means Clustering for Customer Segmentation](sam.png)
-
 
 ## RESULT :
 Thus the program to implement the K Means Clustering for Customer Segmentation is written and verified using python programming.
